@@ -61,7 +61,7 @@ fn main() {
     detect_and_track_libctru();
 
     let bin_dir = Path::new(devkitarm.as_str()).join("bin");
-    let cc = bin_dir.join("arm-none-eabi-gcc");
+    let cc = bin_dir.join("arm-none-eabi-gcc.exe");
     let ar = bin_dir.join("arm-none-eabi-ar");
 
     #[cfg(feature = "layout-tests")]
